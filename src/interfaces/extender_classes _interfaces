@@ -1,0 +1,6 @@
+| Aspecto          | `extends class`                                 | `extends interface`                                                                                       |
+| ---------------- | ----------------------------------------------- | --------------------------------------------------------------------------------------------------------- |
+| Herança          | Só pode herdar **uma classe**                   | Pode herdar de **várias interfaces**                                                                      |
+| Conteúdo herdado | Atributos, métodos concretos e abstratos        | Apenas métodos abstratos (e `default`/`static`)                                                           |
+| Reuso de código  | Sim (você já ganha atributos e métodos prontos) | Não (só obriga implementar métodos)                                                                       |
+| Relação          | Representa **é-um** (Estudante É um Usuário)        | Representa **pode-fazer** (Estudante pode ter comportamento de Usuário e de outra interface, como Trabalhador) |

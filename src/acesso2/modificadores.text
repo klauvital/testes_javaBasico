@@ -1,0 +1,16 @@
+| Modificador   | Mesma classe | Mesmo pacote | Subclasse | Outros pacotes |
+| ------------- | ------------ | ------------ | --------- | -------------- |
+| **public**    | ✅            | ✅            | ✅         | ✅              |
+| **protected** | ✅            | ✅            | ✅         | ❌              |
+| **default**   | ✅            | ✅            | ❌         | ❌              |
+| **private**   | ✅            | ❌            | ❌         | ❌              |
+
+Dica prática:
+
+private → atributos (encapsulamento)
+
+public → métodos que devem ser usados em qualquer lugar
+
+protected → herança
+
+default → quando só interessa dentro do pacote

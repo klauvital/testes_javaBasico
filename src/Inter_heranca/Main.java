@@ -6,6 +6,12 @@ public class Main {
         Automovel carro = new AirCross();
         Automovel carro2 = new Jeep();
         carro.acelerar();
+        carro.acelerar();
+        carro.acelerar();
+        carro.acelerar();
+        carro.acelerar();
+        carro.acelerar();
+        carro.acelerar();
         carro2.freiar();
 
     }
